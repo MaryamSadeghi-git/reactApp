@@ -10,8 +10,8 @@ const SideBar = () => {
         <box-icon name="menu"></box-icon>
       </button>
       <div className="sidebar " style={{ width: toggle && "50vw" }}>
-        <Link to="/json2/add">Add</Link>
-        <Link to={"/json2"}>Data</Link>
+        <Link to="/reactApp/add">Add</Link>
+        <Link to={"/reactApp"}>Data</Link>
       </div>
     </>
   );

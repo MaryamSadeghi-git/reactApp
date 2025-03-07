@@ -6,8 +6,8 @@ createRoot(document.getElementById("root")).render(
   <>
     <BrowserRouter>
       <Routes>
-        <Route path="json2/add" element={<Add />} />
-        <Route path="/json2" element={<Admin />} />
+        <Route path="reactApp/add" element={<Add />} />
+        <Route path="/reactApp" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   </>

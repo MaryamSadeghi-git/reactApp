@@ -40,7 +40,7 @@ const Add = () => {
           </button>
         </form>
       </div>
-      {sendToData && <Navigate to={"/json2"} />}
+      {sendToData && <Navigate to={"/reactApp"} />}
     </>
   );
 };
