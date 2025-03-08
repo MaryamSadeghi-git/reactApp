@@ -7,6 +7,7 @@ import { useState } from "react";
 const Add = () => {
   const [sendToData, setSendToData] = useState(false);
   async function AddToDataBase(formData) {
+    document.querySelector(".DataForm").reset();
     await axios
       .post(`https://testapitome.freehost.io?key=maryam`, {
         name: formData.get("Name"),
